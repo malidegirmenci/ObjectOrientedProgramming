@@ -7,9 +7,7 @@ Patika.dev tarafından hazırlanan Object Oriented Programming eğitimi baz alı
 
 Teşekkürler,   
 `@Mahmut Mustafa Çetindağ`
-<<<<<<< HEAD
-![](./Subjects/img/academy-logo.webp)
-=======
 
-![](Subjects/img/academy-logo.webp)
->>>>>>> ab55cc2a1e7022b70e02c0c77b29716fa58a25e3
+![](./Subjects/img/academy-logo.webp)
+
+
