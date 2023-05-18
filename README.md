@@ -3,7 +3,7 @@
 
 Sınıf ve nesne, sınıf diyagramları, encapsulation, inheritance, polymorphism, abstraction .. konuları ele alındı.
 
-Patika.dev tarafından hazırlanan Object Oriented Programming eğitimi baz alınmıştır.
-Teşekkürler, 
-`@Mahmut Mustafa Çetindağ`
+Patika.dev tarafından hazırlanan Object Oriented Programming eğitimi baz alınmıştır.  
+Teşekkürler,   
+`@Mahmut Mustafa Çetindağ`  
 ![](Subjects/img/academy-logo.webp)
