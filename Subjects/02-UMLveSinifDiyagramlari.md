@@ -30,7 +30,7 @@ Nesne yönelimli programlamada her bir nesnenin konseptini belirten yapılara s�
 Programlamada sınıfların niteliklerini "**değişkenler**" , davranışlarını da "**metotlar**" tanımlar.
 
 ### Sınıf Tanımlama
-![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/oop/uml-class-diagram/figures/c1.jpg)
+![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/oop/uml-class-diagram/figures/c1.jpg)  
 Şekilde görüldüğü üzere bir dikdörtgen 3 parçaya bölünerek, ilk parçasına "**Sınıf Adını**", ikinci parçaya "**Sınıfın Değişkenleri**" , son parçaya da "**Sınıf Metotları**" yazılır.
 
 #### Nitelikler (Değişkenler)
@@ -50,7 +50,7 @@ Sınıfa ait davranışlara ait sözdizimi (syntax):
 - **Görünürlük (Visibility)**: Bu davranışın dışarıdan erişim ilkesinin ne olduğunu belirtir. Alabileceği değerler niteliklerde olduğu gibidir.
 - **İsim (Name)**: Metoda ait isimlendirme yapılır.
 - **Parametre Listesi (Parameter List)**: Programlamada metodun aldığı parametreler tür bilgileri ile birlikte buraya yazılır.
-- **Geri Dönüş Türü (Return Type)**: Metodun geri dönüş tipini belirtir.
+- **Geri Dönüş Türü (Return Type)**: Metodun geri dönüş tipini belirtir.  
 ![](https://github.com/Kodluyoruz/taskforce/raw/main/oop/uml-class-diagram/figures/c2.png)
 
 ### Sınıflar Arası İlişkiler
@@ -59,7 +59,7 @@ Yazılımlar çoğu zaman tek sınıftan oluşmazlar. Küçük programlar bile �
 - Bağlantı İlişkisi (Association)
 - Genelleme/Kalıtım İlişkisi (Generalization/Inheritance)
 - Bağımlılık İlişkisi (Dependency) (Aggregation, Composition)
-- Gerçekleştirim İlişkisi (Realization)
+- Gerçekleştirim İlişkisi (Realization)  
 ![](https://patika-prod.s3-eu-central-1.amazonaws.com/content/modules/oop/lessons/uml-class-diagram/KhNZmcdH84qJtKutw)
 
 #### Bağıntı İlişkisi (Association Class)
@@ -68,28 +68,27 @@ Sınıflar arasındaki ilişkiler çizgi ile gösterilir ve çizginin üstüne i
 ![](https://patika-prod.s3-eu-central-1.amazonaws.com/content/modules/oop/lessons/uml-class-diagram/fEa6wakJAi4cijdBB)  
 Yukarıda ki diyagrama göre müşteri ve ürün arasında Satın Alma ilişkisi vardır ve bunun için de Sipariş oluşturması gerekir. Yukarıda ki diyagram da bire bir ilişkisi vardır.
 
-Sınıf diyagramlarında sınıflar arasında bire n ilişki kurulabilir. Bir sınıf, n tane başka bir sınıf ile ilişkiliyse buna bire-çok (1-n) ilişki denir.
-![](https://patika-prod.s3-eu-central-1.amazonaws.com/content/modules/oop/lessons/uml-class-diagram/HKr3CfeCfyfdEmtnN)
+Sınıf diyagramlarında sınıflar arasında bire n ilişki kurulabilir. Bir sınıf, n tane başka bir sınıf ile ilişkiliyse buna bire-çok (1-n) ilişki denir.  
+![](https://patika-prod.s3-eu-central-1.amazonaws.com/content/modules/oop/lessons/uml-class-diagram/HKr3CfeCfyfdEmtnN)  
 Bu örnekte ise bir sepette n tane ürün olabileceği gösterilmiştir. İki sınıf arasında yalnızca tek bir bağıntı çizilmesi gibi bir kısıt yoktur. En temel bağıntı ilişki tipleri aşağıdaki gibi listelenebilir;
-
 - Bire-bir (1-1)
 - Bire-çok (1-*)
 - Çoka bir (* - 1)
 - Bire-sıfır (1-0)
 - Bire-Beş yada Bire-sekiz (1-5 veya 1-8)
 
-Diğer bir ilişki türü ise bir sınıfın kendisiyle kurduğu ilişkidir. Bu tür ilişkiler genellikle bir sınıfın sistemde birden fazla rolü varsa ortaya çıkar. Bu tür ilişkilere "reflexive associations" denir.
+Diğer bir ilişki türü ise bir sınıfın kendisiyle kurduğu ilişkidir. Bu tür ilişkiler genellikle bir sınıfın sistemde birden fazla rolü varsa ortaya çıkar. Bu tür ilişkilere "reflexive associations" denir.  
 ![](https://github.com/Kodluyoruz/taskforce/raw/main/oop/uml-class-diagram/figures/c5.jpg)
 #### Sınıflar Arasında Türetme (Inheritance) ve Genelleme (Generalization) İlişkisi
-Nesne yönelimli programlamanın en önemli parçası türetme (inheritance)'dir. Türetme yoluyla bir sınıf başka bir sınıfın var olan özelliklerini alarak, o sınıf türünden başka bir nesneymiş gibi kullanılabilir. Bir sınıfın işlevleri türetme yoluyla genişletilecekse, türetmenin yapılacağı sınıfa taban sınıf (super class), türetilmiş olan sınıfa da türemiş sınıf (sub class) denir. Şekilsel olarak türemiş sınıftan taban sınıfa bir ok olarak belirtilir.
+Nesne yönelimli programlamanın en önemli parçası türetme (inheritance)'dir. Türetme yoluyla bir sınıf başka bir sınıfın var olan özelliklerini alarak, o sınıf türünden başka bir nesneymiş gibi kullanılabilir. Bir sınıfın işlevleri türetme yoluyla genişletilecekse, türetmenin yapılacağı sınıfa taban sınıf (super class), türetilmiş olan sınıfa da türemiş sınıf (sub class) denir. Şekilsel olarak türemiş sınıftan taban sınıfa bir ok olarak belirtilir.  
 ![](https://github.com/Kodluyoruz/taskforce/raw/main/oop/uml-class-diagram/figures/c6.jpg)
 
 Bu örnekte "Şekiller" sınıfına ait tüm özellikler altında üretilmiş olan, diğer sınıflara aktarılmıştır.
 
 #### Bağımlılık İlişkisi (Dependency) ve Birleştirme (Aggregation, Composition)
 Birden fazla parçadan oluşan sınıflar arasındaki ilişkiye "Aggregation" denir. Aggregation ilişkisini 'bütün parça' yukarıda olacak şekilde ve bütün parçanın ucuna içi boş elmas yerleştirecek şekilde gösteririz. İçi boş elmas ile gösterilen ilişkilerde her bir parça ayrı bir sınıftır ve tek başlarına anlam ifade ederler.  
-Örneğin Araba sınıfını 1 Motor, 5 Koltuk ve 4 Lastik sınıflarının oluşturduğunu düşünürsek aralarındaki ilişki aşağıdaki gibi gösterilir.
-![](https://github.com/Kodluyoruz/taskforce/raw/main/oop/uml-class-diagram/figures/c7.jpg)
+Örneğin Araba sınıfını 1 Motor, 5 Koltuk ve 4 Lastik sınıflarının oluşturduğunu düşünürsek aralarındaki ilişki aşağıdaki gibi gösterilir.  
+![](https://github.com/Kodluyoruz/taskforce/raw/main/oop/uml-class-diagram/figures/c7.jpg)  
 Asıl sınıf üretildiğinde parçaları da üretilecek ise bu ilişkiye **Composite** denir. Eğer Araba sınıfı oluşturulduğunda Motor, Koltuk ve Lastik sınıfları da oluşturulacak ise içi dolu dörtgen dolu olarak gösterilir.
 #### Gerçekleştirim (Realization) İlişkisi
 Gerçekleştirim ilişkisi en çok kullanıcı arayüzlerinin (user interface) modellenmesinde kullanılır. Arayüz yalnızca method adlarını ve bunların parametrelerini içermektedir. Program yazarken, yalnızca arayüzlerin kullanılması ve arayüzü gerçekleştiren sınıfın diğer sınıflardan ayrı tutulması, yazılımın geliştirilmesi ve bakımında önemli kolaylık sağlar.
