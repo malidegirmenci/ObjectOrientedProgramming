@@ -6,4 +6,4 @@ Sınıf ve nesne, sınıf diyagramları, encapsulation, inheritance, polymorphis
 Patika.dev tarafından hazırlanan Object Oriented Programming eğitimi baz alınmıştır.
 Teşekkürler, 
 `@Mahmut Mustafa Çetindağ`
-![](Subjects/img/academy-logo.webp)
+![](./Subjects/img/academy-logo.webp)
