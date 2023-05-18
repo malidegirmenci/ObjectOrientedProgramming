@@ -30,7 +30,7 @@ Nesne yönelimli programlamada her bir nesnenin konseptini belirten yapılara s�
 Programlamada sınıfların niteliklerini "**değişkenler**" , davranışlarını da "**metotlar**" tanımlar.
 
 ### Sınıf Tanımlama
-![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/oop/uml-class-diagram/figures/c1.jpg)  
+![](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/oop/uml-class-diagram/figures/c1.jpg)    
 Şekilde görüldüğü üzere bir dikdörtgen 3 parçaya bölünerek, ilk parçasına "**Sınıf Adını**", ikinci parçaya "**Sınıfın Değişkenleri**" , son parçaya da "**Sınıf Metotları**" yazılır.
 
 #### Nitelikler (Değişkenler)
@@ -50,18 +50,16 @@ Sınıfa ait davranışlara ait sözdizimi (syntax):
 - **Görünürlük (Visibility)**: Bu davranışın dışarıdan erişim ilkesinin ne olduğunu belirtir. Alabileceği değerler niteliklerde olduğu gibidir.
 - **İsim (Name)**: Metoda ait isimlendirme yapılır.
 - **Parametre Listesi (Parameter List)**: Programlamada metodun aldığı parametreler tür bilgileri ile birlikte buraya yazılır.
-- **Geri Dönüş Türü (Return Type)**: Metodun geri dönüş tipini belirtir.  
+- **Geri Dönüş Türü (Return Type)**: Metodun geri dönüş tipini belirtir.    
 ![](https://github.com/Kodluyoruz/taskforce/raw/main/oop/uml-class-diagram/figures/c2.png)
-
 ### Sınıflar Arası İlişkiler
 Yazılımlar çoğu zaman tek sınıftan oluşmazlar. Küçük programlar bile çoğu zaman birden fazla sınıfa ihtiyaç duymaktadır. Bir yazılımda sınıf sayısı arttıkça programın tasarlanması da karmaşıklaşır. Bu yüzden UML diyagramlar kullanılarak, bu karmaşıklığı daha olayın en başında minimuma indirip maliyeti azaltmaktır. Sınıflar birbirleriyle ilişki içerisinde olan yapılardır. Bu ilişkileri UML diyagramlarında da göstermek gerekir. Elbette ilişkinin türüne göre gösterim de değişiklik gösterecektir.
 
 - Bağlantı İlişkisi (Association)
 - Genelleme/Kalıtım İlişkisi (Generalization/Inheritance)
 - Bağımlılık İlişkisi (Dependency) (Aggregation, Composition)
-- Gerçekleştirim İlişkisi (Realization)  
+- Gerçekleştirim İlişkisi (Realization)    
 ![](https://patika-prod.s3-eu-central-1.amazonaws.com/content/modules/oop/lessons/uml-class-diagram/KhNZmcdH84qJtKutw)
-
 #### Bağıntı İlişkisi (Association Class)
 Sınıflar arasındaki ilişkiler çizgi ile gösterilir ve çizginin üstüne ilişki şekli yazılır. Sınıflar arası ilişkiler bire bir, bire çok, bire n gibi olabilir.  
 Örneğin aşağıdaki gösterimde e-ticaret sisteminde müşteri ve ürün ilişkisini görmektesiniz.  
