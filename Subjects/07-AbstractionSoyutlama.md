@@ -12,7 +12,7 @@ Soyutlama için Java'da iki yöntem mevcuttur:
 
 - "interface" tanımlamak
 - "abstract" sınıf tanımlamak
-- 
+
 ## Soyut Sınıf (Abstract Class)
 "abstract" anahtar kelimesi ile tanımlanan sınıflardır. Sınıfın içinde soyut ("abstract") metotlar veya normal fonksiyonlar tanımlanabilir. Soyut sınıflardan "new" anahtar kelimesi ile bir nesne oluşturulamaz.
 
