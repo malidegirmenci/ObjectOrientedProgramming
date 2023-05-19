@@ -8,5 +8,7 @@ Draw the Class diagram describing this system.
 
 Note: It is not necessary to specify the attributes and behaviors of the classes.
 
+---
+
 # Diagram
 ![](UniversityManagmentSystem.png)
