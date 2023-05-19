@@ -6,6 +6,9 @@ Design the system of the application that sells or rents movies online.
 - Only subscribed users can rent movies with their credits and the credit value of the rented movie is deducted from their account.
 - Regular users and subscribers can purchase movies.
 - If the film is not available, it can be requested.
+  Draw the Class diagram describing this system.
+  
+---
+# Diagram
 
-Draw the Class diagram describing this system.
 ![](/Practices/Hw03_OnlineMovieAPP/OnlineMovieAPP.png)
