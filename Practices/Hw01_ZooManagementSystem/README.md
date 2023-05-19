@@ -13,6 +13,7 @@ species name, weight, age, etc.
 
 Using the polymorphism model, design a class diagram to handle the situation described above.
 
-# Diagram
+---
 
-![](/Hw01_ZooManagementSystem/ZooManagementSystem.png)
+![](/Practices/Hw01_ZooManagementSystem/ZooManagementSystem.png)
+
